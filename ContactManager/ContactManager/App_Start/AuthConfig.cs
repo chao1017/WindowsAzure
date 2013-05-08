@@ -22,11 +22,13 @@ namespace ContactManager
             //    consumerKey: "",
             //    consumerSecret: "");
 
-            //OAuthWebSecurity.RegisterFacebookClient(
-            //    appId: "",
-            //    appSecret: "");
+            OAuthWebSecurity.RegisterFacebookClient(
+                appId: "157774984392393",
+                appSecret: "763f06a64255ae2a5ffab7fb823397d0");
 
-            //OAuthWebSecurity.RegisterGoogleClient();
+            OAuthWebSecurity.RegisterGoogleClient();
+
+            OAuthWebSecurity.RegisterYahooClient();
         }
     }
 }
